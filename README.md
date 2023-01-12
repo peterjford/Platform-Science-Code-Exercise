@@ -33,10 +33,15 @@ The output should be the total SS and a matching between shipment destinations a
 You do not need to worry about malformed input, but you should certainly handle both upper
 and lower case names.
 
+
 Deliverable
+
 Your app:
+
 ● May make use of any existing open source libraries
 Send us:
+
 ● The full source code, including any code written which is not part of the normal
 program run (e.g. build scripts)
+
 ● Clear instructions on how to build/run the app
