@@ -19,7 +19,7 @@ code to input filenames
 
 code read file
   driver file: read driver names into an array
-  address file: strip out numbers at begining of address linem put into an array
+  address file: strip out numbers at begining of address line put into an array
   
 function to count characters to determind odd or even (address) { if (length(address) % 2) { return odd } return even }
 function to count vowels (drivers_name) { foreach (str_split($drivers_name) as $char) { if strtoupper($char) === ('A' || 'E' || 'I' || 'O' || 'U') {
