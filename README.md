@@ -21,7 +21,7 @@ Assumptions
         
         Bob James Driver\n
         
-  there are an equal number of drivers and addresses
+  the number of drivers is >= the number of addresses
   
   spaces count as characters in lengths of street names
   
