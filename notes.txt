@@ -10,7 +10,7 @@ language: PHP CLI
     the drivers names in the drivers file are in this format:
         Firstname Lastname\n
         Bob James Driver\n
-  there are an equal number of drivers and addresses
+  the number of drivers is >= the number addresses
   spaces count as characters in lengths of street names
   characters are ascii
   y is not a vowel
