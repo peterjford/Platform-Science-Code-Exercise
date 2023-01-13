@@ -1,0 +1,43 @@
+// Written by Peter J. Ford 2023-01-12 
+
+language: PHP CLI
+
+  no malformed input means 
+    the files exist
+    the addresses in the addresses file are in this format:
+        123 Street Name\n
+        456 Other Street Name Ave.\n
+    the drivers names in the drivers file are in this format:
+        Firstname Lastname\n
+        Bob James Driver\n
+  there are an equal number of drivers and addresses
+  spaces count as characters in lengths of street names
+  characters are ascii
+  y is not a vowel
+
+code to input filenames
+
+code read file
+  driver file: read driver names into an array
+  address file: strip out numbers at begining of address linem put into an array
+  
+function to count characters to determind odd or even (address) { if (length(address) % 2) { return odd } return even }
+function to count vowels (drivers_name) { foreach (str_split($drivers_name) as $char) { if strtoupper($char) === ('A' || 'E' || 'I' || 'O' || 'U') {
+  vowel_count++}} return vowel_count}
+function to count constonants (drivers_name) {return (length(drivers_name = str_replace(' ', '', drivers_name)) - vowels(drivers_name)); }
+funciton to check for common factors
+
+outer loop addresses i
+inner loop drivers j
+ss = 0;
+if address[i] = even {ss = vowels_in_name(driver_name[j]) x 1.5 }
+else {ss = length(driver_name[j]) - vowels_in_name(driver_name[j] }
+
+if common_factors(drivers_name[j], address[i]) {ss = ss * .5 }
+
+end of inner loop drivers ss for each address
+select highest ss, add to assigned pairs array, remove address and drivers name
+
+end of outer loop
+
+display names and assigned addresses.
