@@ -27,8 +27,10 @@ Assumptions
   
 Input
 
-
+file with addresses to be delivered to 
+file with drivers names
 
 Output
 
-
+List of drivers assigned to shipment addresses ordered by SS and showing SS
+File listing driver assignments in the form of Driver Assignments.YYYY-MM-DD.txt
