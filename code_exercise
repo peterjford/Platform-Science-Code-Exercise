@@ -23,3 +23,24 @@ Your app:
 ● The full source code, including any code written which is not part of the normal program run (e.g. build scripts)
 
 ● Clear instructions on how to build/run the app
+
+● Please provide any deliverable and instructions using a public Github (or similar)
+repository as several people will need to inspect the solution
+
+Evaluation
+
+The point of the exercise is for us to see:
+
+● Code craftsmanship
+
+● How you think about and solve a problem
+
+● How you explain the approach you took and the assumptions you made
+
+We will especially consider:
+
+● Code organization
+
+● Code readability
+
+● Quality of instructions

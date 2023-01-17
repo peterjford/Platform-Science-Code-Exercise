@@ -1,0 +1,45 @@
+
+Instructions for use of the assign_shipments.php application.
+
+This is a PHP command line application.  It uses PHP CLI and was tested using PHP 7.1.23 (cli).
+
+Once you have pulled the code from the github repository:
+$ git clone https://github.com/peterjford/Platform-Science-Code-Exercise.git
+
+Change into the Platform-Science-Code-Exercise directory:
+$ cd Platform-Science-Code-Exercise/
+
+Inside that directory are all the files needed to run the application, plus a few sample files used for testing:
+$ ls -1
+README.md
+assign_shipments.php
+code_exercise
+driver_roster
+driver_roster.2
+functions.php
+instructions.txt
+notes.txt
+shipments.2023-01-13.txt
+shipments.2023-01-16.txt
+ss_modifiers.php
+
+To run the applicaton simply type ./ then the applcation name "assign_shipments.php" followed by the filename for the shipments, then the filename for the drivers:
+$ ./assign_shipments.php shipments.2023-01-13.txt driver_roster
+
+The files for the shipments and drivers must be in that order.
+
+The application will output the names of the files used, followed by a listing of the assignments to the drivers: 
+$ ./assign_shipments.php shipments.2023-01-16.txt driver_roster
+address filename: shipments.2023-01-16.txt
+drivers filename : driver_roster
+Driver Mario Andretti is assigned to shipment at address 1313 Harbour Ave. with a SS of 13.5.
+Driver Billy Bob Driver is assigned to shipment at address 1 B with a SS of 10.
+Driver Mack Trucker is assigned to shipment at address 1243 Backer St. with a SS of 6.75.
+Driver Al Unser Jr. is assigned to shipment at address 123 Main with a SS of 6.75.
+
+The applcation will also create a file (assuming you have write permission to the directory you are running the application in) with a filename of "Driver Assignments.YYYY-MM-DD.txt"
+
+You can also run the file in the PHP cli console: 
+$ php -f assign_shipments.php shipments.2023-01-16.txt driver_roster
+
+if you have any questions please contact me at peterjford@gmail.com
